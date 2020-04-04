@@ -20,4 +20,5 @@ sector = s.info.get('sector')
 # Update the 11th column in the google sheet with the sector name
 sheet1.update_cell(i+2,11,sector) 
 ```
+- **003 Scraping yahoo finance website using python**:
 
