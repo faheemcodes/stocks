@@ -24,4 +24,27 @@ sector = s.info.get('sector')
 sheet1.update_cell(i+2,11,sector) 
 ```
 - [**003 Scraping yahoo finance website using python**](https://github.com/faheemcodes/stocks/blob/master/003%20Scraping%20yahoo%20finance%20website%20using%20python.ipynb):
+> This notebook uses the python module called BeautifulSoup to scrap the yahoo finance website to obtain various parameters associated with each of the stock (eg: Revenue2019, EBITDA2018, Trailing P/E ratio etc).
+> A python function which more or less generalises various pages of yahoo finance is created:
+```python
+def profiledata(ticker, page, attr, position):
+# This function takes 
+#       - ticker (eg: AAPL)
+#       - page (eg: financials or balance-sheet or key-statistics)
+#       - attr (eg: Net Income, Revenue etc from each of the pages. Works with most but not all attributes)
+#       - position (eg: 1, 2, 3 etc. What is the column number where the data is located)
+
+# Sample queries:
+rev2019 = profiledata(t, 'financials', 'Total Revenue', 2 ) # t is the stock ticker
+```
+ - [**004 Sector Wise Analysis - 2008 Crash**](https://github.com/faheemcodes/stocks/blob/master/004%20Sector%20Wise%20Analysis%20-%202008%20Crash.ipynb):
+ > This notebook analyses various sectors in the NASDAQ market to see the trends of fall and raising up during the financial crisis of 2008-2009
+ > For each sector index, a reference value of stock is obtained (which is the value of the index in the beginning of september 2008 - right before the crash) - Reference value
+ > During the recession, most of the stock indices fell to it bottom during the beginning of 2009 and went back up. The assessment calculates number of years it took for each sector to rise back to the reference value in 2008 Sept from the bottom most point in 2009 beginning. 
+ ![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Stocks%20time%20series%20plot.JPG "Logo Title Text 1")
+ 
+ 
+ 
+ 
+ - [**003 Scraping yahoo finance website using python**](https://github.com/faheemcodes/stocks/blob/master/003%20Scraping%20yahoo%20finance%20website%20using%20python.ipynb):
 
