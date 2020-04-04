@@ -48,5 +48,5 @@ rev2019 = profiledata(t, 'financials', 'Total Revenue', 2 ) # t is the stock tic
  - [**005 Stock Prediction (Day Trading)**](http://localhost:8892/notebooks/Data%20Science/Github/Stocks/005%20Stock%20Prediction%20(Day%20Trading).ipynb):
 
 > This notebook uses artificial recurring neural networks architecture (LSTM) to predict the stock prices - Day ahead forecasting
-> For a sample stock, the prediction accuracy of the validation set of the time series looks like the following:
+> For a sample stock, the high prediction accuracy of this model on the test set is reflected in the following plot:
 ![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Stock%20prediction%20AAPL%20-%20Day%20ahead.JPG "Day ahead forecasting of Apple stocks - Prediction accuracy")
