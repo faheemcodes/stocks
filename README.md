@@ -45,7 +45,7 @@ rev2019 = profiledata(t, 'financials', 'Total Revenue', 2 ) # t is the stock tic
  > During the recession, most of the stock indices fell to it bottom during the beginning of 2009 and went back up. The assessment calculates number of years it took for each sector to get back up to the reference value in 2008 Sept from the bottom most point in 2009 beginning. 
  ![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Sector%20indices%20-%202008%20Crash.JPG "Sector wise stock price crash")
   
- - [**005 Stock Prediction (Day Trading)**](http://localhost:8892/notebooks/Data%20Science/Github/Stocks/005%20Stock%20Prediction%20(Day%20Trading).ipynb):
+ - [**005 Stock Prediction (Day Trading)**](https://github.com/faheemcodes/stocks/blob/master/005%20Stock%20Prediction%20(Day%20Trading).ipynb):
 
 > This notebook uses artificial recurring neural networks architecture (LSTM) to predict the stock prices - Day ahead forecasting. 
 > For a sample stock, the high prediction accuracy of this model on the test set is reflected in the following plot:
