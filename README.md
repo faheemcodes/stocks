@@ -9,7 +9,7 @@ Various notebooks for accessing, scraping, downloading, forecasting of stock dat
   end = '2020-03-30' # End date
 ```
 > Sample plot will look something like this:
-![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Stocks%20time%20series%20plot.JPG "Logo Title Text 1")
+![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Stocks%20time%20series%20plot.JPG "Time Series Plot of Stocks")
 
 - [**002 Updating google sheets with Python - stock parameters**](https://github.com/faheemcodes/stocks/blob/master/002%20Updating%20google%20sheets%20with%20Python%20-%20stock%20parameters.ipynb):
 > This notebook requires you to obtain a google sheets api credentials and store it locally to access the google sheets. Learn more about setting this from this video from [Tech with Tim](https://www.youtube.com/watch?v=cnPlKLEGR7E). 
@@ -43,9 +43,10 @@ rev2019 = profiledata(t, 'financials', 'Total Revenue', 2 ) # t is the stock tic
  > This notebook analyses various sectors in the NASDAQ market to see the trends of fall and raising up during the financial crisis of 2008-2009
  > For each sector index, a reference value of stock is obtained (which is the value of the index in the beginning of september 2008 - right before the crash) - Reference value
  > During the recession, most of the stock indices fell to it bottom during the beginning of 2009 and went back up. The assessment calculates number of years it took for each sector to get back up to the reference value in 2008 Sept from the bottom most point in 2009 beginning. 
- ![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Sector%20indices%20-%202008%20Crash.JPG "Logo Title Text 1")
+ ![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Sector%20indices%20-%202008%20Crash.JPG "Sector wise stock price crash")
   
  - [**005 Stock Prediction (Day Trading)**](http://localhost:8892/notebooks/Data%20Science/Github/Stocks/005%20Stock%20Prediction%20(Day%20Trading).ipynb):
 
 > This notebook uses artificial recurring neural networks architecture (LSTM) to predict the stock prices - Day ahead forecasting
 > For a sample stock, the prediction accuracy of the validation set of the time series looks like the following:
+![alt text](https://github.com/faheemcodes/stocks/blob/master/Data/Stock%20prediction%20AAPL%20-%20Day%20ahead.JPG "Day ahead forecasting of Apple stocks - Prediction accuracy")
